@@ -11,7 +11,8 @@ import FormThree from "./FormThree";
 import FormThreeFilter from "./FormThreeFilter";
 import FormThreeForm from "./FormThreeForm";
 import Addresses from "./address";
-  
+import List from "./List";
+
 
 
 //import Cart from "./Cart";
@@ -54,7 +55,7 @@ function App() {
        <option value="Clothing">Clothing</option>
        <option value="Household">Household</option>
      </select> */}
-     
+     <List></List>
      <FormThreeForm ></FormThreeForm>
      <FormThreeFilter  onselect={(address) => setSelected(address)}
      ></FormThreeFilter>
